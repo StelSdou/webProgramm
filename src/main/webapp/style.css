@@ -1,0 +1,93 @@
+:root{
+    --backColor: #FBF5E5;
+    --boxColor: #C4D9FF;
+    --rad: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--backColor);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    overflow: hidden;
+    background-color: var(--boxColor);
+    border-radius: var(--rad);
+    width: 100%;
+    height: 100%;
+
+    box-shadow: -.5em .5em 3em black;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.box .pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .pic img{
+    width: 90%;
+}
+
+.box .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inps{
+    width: 80%;
+}
+
+.in{
+    height: 2em;
+    margin: 5%;
+    margin-right: 10%;
+    display: flex;
+    background-color: rgba(141, 141, 141, 0.626);
+}
+
+.in img {
+    width: 15%;
+}
+
+.in input{
+    margin-left: 5%;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.but h1{
+    cursor:pointer;
+    background-color:#a7c4ff8c;
+    width: 50%;
+}
+
+.but{
+    text-align: center;
+}
