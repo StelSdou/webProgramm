@@ -9,7 +9,7 @@
 <body>
 <main>
     <div class="box">
-        <form class="login" action="input" method="post">
+        <form class="login" action="register" method="post">
             <div class="title">
                 <h2>LOGIN</h2>
                 <P>Insert your information here</P>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="but">
                     <h1>Log In</h1>
-                    <input type="submit" name="submit" id="submit" value="Login">
+                    <input type="submit" name="register" id="submit" value="Login">
                 </div>
             </div>
             <div class="extra">

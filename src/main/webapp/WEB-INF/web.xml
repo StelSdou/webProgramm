@@ -6,12 +6,12 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <servlet>
-    <servlet-name>input</servlet-name>
+    <servlet-name>register</servlet-name>
     <servlet-class>com.demo.First</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>input</servlet-name>
-    <url-pattern>/input</url-pattern>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
   </servlet-mapping>
 </web-app>
